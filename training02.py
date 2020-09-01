@@ -1,4 +1,4 @@
-
+'''
 
 !pip install opencv_python
      Requirement already satisfied: opencv_python in c:\users\personal\anaconda3\lib\site-packages (4.1.0.25)
@@ -9,6 +9,7 @@
 !pip install opencv-contrib-python
      Requirement already satisfied: opencv-contrib-python in c:\users\personal\anaconda3\lib\site-packages (4.1.0.25)
      Requirement already satisfied: numpy>=1.14.5 in c:\users\personal\anaconda3\lib\site-packages (from opencv-contrib-python) (1.16.2)
+'''
 import cv2
 import os
 import numpy as np
