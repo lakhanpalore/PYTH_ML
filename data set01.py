@@ -1,8 +1,9 @@
-
+'''
 !pip install  opencv-python
 !pip install  opencv-python
 Requirement already satisfied: opencv-python in c:\users\personal\anaconda3\lib\site-packages (4.1.0.25)
 Requirement already satisfied: numpy>=1.14.5 in c:\users\personal\anaconda3\lib\site-packages (from opencv-python) (1.16.2)
+'''
 import cv2
 ​
 import numpy as np
@@ -46,5 +47,6 @@ while 1:
         break
 cap.release()
 cv2.destroyAllWindows()
+'''
 enter user id:1
-       ''' after this a window will open n take 26 photos of you  '''
+        after this a window will open n take 26 photos of you  '''
